@@ -54,7 +54,7 @@ int main() {
         temperature_output_value = temperature_input_value;
     } else {
         float slope_value {};
-        double intercept_value {};
+        float intercept_value {};
         const float kCelsiusToKelvinDifference = 273.15;
 
         if(input_unit_value != kFAHRENHEIT && output_unit_value != kFAHRENHEIT) {
