@@ -2,7 +2,7 @@
 
 enum Temperature_Unit { kCELSIUS = 1, kKELVIN = 2, kFAHRENHEIT = 3 };
 
-/*
+/**
  * Checks if unit value is valid
  *
  * @param temperature unit value
@@ -10,7 +10,7 @@ enum Temperature_Unit { kCELSIUS = 1, kKELVIN = 2, kFAHRENHEIT = 3 };
  */
 bool IsUnitTypeValid(int unit_value) { return (unit_value > 0 && unit_value < 4); };
 
-/*
+/**
  * Returns a unit name for given value
  *
  * @param temperature unit value
